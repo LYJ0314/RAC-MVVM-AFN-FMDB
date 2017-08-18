@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		2C5D5FB31F453851008A9E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FB21F453851008A9E65 /* main.m */; };
 		2C5D5FB61F453851008A9E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FB51F453851008A9E65 /* AppDelegate.m */; };
-		2C5D5FB91F453851008A9E65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FB81F453851008A9E65 /* ViewController.m */; };
 		2C5D5FBC1F453851008A9E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5D5FBA1F453851008A9E65 /* Main.storyboard */; };
 		2C5D5FBE1F453851008A9E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5D5FBD1F453851008A9E65 /* Assets.xcassets */; };
 		2C5D5FC11F453851008A9E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5D5FBF1F453851008A9E65 /* LaunchScreen.storyboard */; };
 		2C5D5FCC1F453851008A9E65 /* RAC_MVVM_AFN_FMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FCB1F453851008A9E65 /* RAC_MVVM_AFN_FMDBTests.m */; };
 		2C5D5FD71F453851008A9E65 /* RAC_MVVM_AFN_FMDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FD61F453851008A9E65 /* RAC_MVVM_AFN_FMDBUITests.m */; };
+		2C5D5FF71F453DFF008A9E65 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FF61F453DFF008A9E65 /* BaseViewController.m */; };
+		2C5D5FFA1F453E55008A9E65 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FF91F453E55008A9E65 /* BaseViewModel.m */; };
+		2C5D5FFD1F453E6D008A9E65 /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FFC1F453E6D008A9E65 /* RequestViewModel.m */; };
+		2C5D60001F454104008A9E65 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D5FFF1F454104008A9E65 /* BaseModel.m */; };
+		2C5D60031F45433C008A9E65 /* FMDatabaseQueue+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D60021F45433C008A9E65 /* FMDatabaseQueue+Extension.m */; };
+		2C5D60081F454555008A9E65 /* NotificationNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D60071F454555008A9E65 /* NotificationNames.m */; };
+		2C5D600B1F4545E6008A9E65 /* CFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D600A1F4545E6008A9E65 /* CFunctions.m */; };
+		2C5D60121F454892008A9E65 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D60101F454892008A9E65 /* HomePageViewController.m */; };
+		2C5D60151F4548EE008A9E65 /* HomePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D60141F4548EE008A9E65 /* HomePageCell.m */; };
+		2C5D60181F454940008A9E65 /* HomePageCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D60171F454940008A9E65 /* HomePageCellViewModel.m */; };
+		2C5D601B1F456444008A9E65 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D601A1F456444008A9E65 /* ArticleModel.m */; };
+		2C5D601E1F4568CF008A9E65 /* HomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D601D1F4568CF008A9E65 /* HomePageViewModel.m */; };
+		7E687D139E3003273E5CBBA3 /* libPods-RAC-MVVM-AFN-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4ED5E942088AA25F8075B5 /* libPods-RAC-MVVM-AFN-FMDB.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +51,6 @@
 		2C5D5FB21F453851008A9E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C5D5FB41F453851008A9E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C5D5FB51F453851008A9E65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C5D5FB71F453851008A9E65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C5D5FB81F453851008A9E65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2C5D5FBB1F453851008A9E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C5D5FBD1F453851008A9E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C5D5FC01F453851008A9E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,36 @@
 		2C5D5FD21F453851008A9E65 /* RAC-MVVM-AFN-FMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC-MVVM-AFN-FMDBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5D5FD61F453851008A9E65 /* RAC_MVVM_AFN_FMDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_MVVM_AFN_FMDBUITests.m; sourceTree = "<group>"; };
 		2C5D5FD81F453851008A9E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5D5FF11F453CB0008A9E65 /* SQLInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLInterface.h; sourceTree = "<group>"; };
+		2C5D5FF51F453DFF008A9E65 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2C5D5FF61F453DFF008A9E65 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2C5D5FF81F453E55008A9E65 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		2C5D5FF91F453E55008A9E65 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		2C5D5FFB1F453E6D008A9E65 /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		2C5D5FFC1F453E6D008A9E65 /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		2C5D5FFE1F454104008A9E65 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		2C5D5FFF1F454104008A9E65 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		2C5D60011F45433C008A9E65 /* FMDatabaseQueue+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabaseQueue+Extension.h"; sourceTree = "<group>"; };
+		2C5D60021F45433C008A9E65 /* FMDatabaseQueue+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabaseQueue+Extension.m"; sourceTree = "<group>"; };
+		2C5D60041F454495008A9E65 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		2C5D60051F4544F7008A9E65 /* SQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQL.h; sourceTree = "<group>"; };
+		2C5D60061F454555008A9E65 /* NotificationNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationNames.h; sourceTree = "<group>"; };
+		2C5D60071F454555008A9E65 /* NotificationNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationNames.m; sourceTree = "<group>"; };
+		2C5D60091F4545E6008A9E65 /* CFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFunctions.h; sourceTree = "<group>"; };
+		2C5D600A1F4545E6008A9E65 /* CFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFunctions.m; sourceTree = "<group>"; };
+		2C5D600F1F454892008A9E65 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		2C5D60101F454892008A9E65 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		2C5D60131F4548EE008A9E65 /* HomePageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCell.h; sourceTree = "<group>"; };
+		2C5D60141F4548EE008A9E65 /* HomePageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCell.m; sourceTree = "<group>"; };
+		2C5D60161F454940008A9E65 /* HomePageCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCellViewModel.h; sourceTree = "<group>"; };
+		2C5D60171F454940008A9E65 /* HomePageCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCellViewModel.m; sourceTree = "<group>"; };
+		2C5D60191F456444008A9E65 /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
+		2C5D601A1F456444008A9E65 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
+		2C5D601C1F4568CF008A9E65 /* HomePageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewModel.h; sourceTree = "<group>"; };
+		2C5D601D1F4568CF008A9E65 /* HomePageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewModel.m; sourceTree = "<group>"; };
+		4F4ED5E942088AA25F8075B5 /* libPods-RAC-MVVM-AFN-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC-MVVM-AFN-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		522998469FB7A2232E066899 /* Pods-RAC-MVVM-AFN-FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-MVVM-AFN-FMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-MVVM-AFN-FMDB/Pods-RAC-MVVM-AFN-FMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		CF48395B8EEF4EDF712ADB43 /* Pods-RAC-MVVM-AFN-FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-MVVM-AFN-FMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-MVVM-AFN-FMDB/Pods-RAC-MVVM-AFN-FMDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E687D139E3003273E5CBBA3 /* libPods-RAC-MVVM-AFN-FMDB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27A931805AC19E3EDA3AE86E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F4ED5E942088AA25F8075B5 /* libPods-RAC-MVVM-AFN-FMDB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C5D5FA51F453851008A9E65 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +134,8 @@
 				2C5D5FCA1F453851008A9E65 /* RAC-MVVM-AFN-FMDBTests */,
 				2C5D5FD51F453851008A9E65 /* RAC-MVVM-AFN-FMDBUITests */,
 				2C5D5FAF1F453851008A9E65 /* Products */,
+				2C6E8DB2A9DFAE9B6655DADD /* Pods */,
+				27A931805AC19E3EDA3AE86E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +154,11 @@
 			children = (
 				2C5D5FB41F453851008A9E65 /* AppDelegate.h */,
 				2C5D5FB51F453851008A9E65 /* AppDelegate.m */,
-				2C5D5FB71F453851008A9E65 /* ViewController.h */,
-				2C5D5FB81F453851008A9E65 /* ViewController.m */,
+				2C5D5FED1F453BAF008A9E65 /* Interface */,
+				2C5D5FE91F453BAF008A9E65 /* Base */,
+				2C5D5FEA1F453BAF008A9E65 /* Category */,
+				2C5D5FEB1F453BAF008A9E65 /* Configuration */,
+				2C5D5FEC1F453BAF008A9E65 /* HomePage */,
 				2C5D5FBA1F453851008A9E65 /* Main.storyboard */,
 				2C5D5FBD1F453851008A9E65 /* Assets.xcassets */,
 				2C5D5FBF1F453851008A9E65 /* LaunchScreen.storyboard */,
@@ -140,6 +194,133 @@
 			path = "RAC-MVVM-AFN-FMDBUITests";
 			sourceTree = "<group>";
 		};
+		2C5D5FE91F453BAF008A9E65 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D5FF21F453DE6008A9E65 /* Model */,
+				2C5D5FF31F453DE6008A9E65 /* ViewController */,
+				2C5D5FF41F453DE6008A9E65 /* ViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2C5D5FEA1F453BAF008A9E65 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D60011F45433C008A9E65 /* FMDatabaseQueue+Extension.h */,
+				2C5D60021F45433C008A9E65 /* FMDatabaseQueue+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2C5D5FEB1F453BAF008A9E65 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D60041F454495008A9E65 /* define.h */,
+				2C5D60051F4544F7008A9E65 /* SQL.h */,
+				2C5D60061F454555008A9E65 /* NotificationNames.h */,
+				2C5D60071F454555008A9E65 /* NotificationNames.m */,
+				2C5D60091F4545E6008A9E65 /* CFunctions.h */,
+				2C5D600A1F4545E6008A9E65 /* CFunctions.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2C5D5FEC1F453BAF008A9E65 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D600C1F454892008A9E65 /* Model */,
+				2C5D600D1F454892008A9E65 /* View */,
+				2C5D600E1F454892008A9E65 /* ViewController */,
+				2C5D60111F454892008A9E65 /* ViewModel */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		2C5D5FED1F453BAF008A9E65 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D5FF11F453CB0008A9E65 /* SQLInterface.h */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		2C5D5FF21F453DE6008A9E65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D5FFE1F454104008A9E65 /* BaseModel.h */,
+				2C5D5FFF1F454104008A9E65 /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C5D5FF31F453DE6008A9E65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D5FF51F453DFF008A9E65 /* BaseViewController.h */,
+				2C5D5FF61F453DFF008A9E65 /* BaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2C5D5FF41F453DE6008A9E65 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D5FF81F453E55008A9E65 /* BaseViewModel.h */,
+				2C5D5FF91F453E55008A9E65 /* BaseViewModel.m */,
+				2C5D5FFB1F453E6D008A9E65 /* RequestViewModel.h */,
+				2C5D5FFC1F453E6D008A9E65 /* RequestViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C5D600C1F454892008A9E65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D60191F456444008A9E65 /* ArticleModel.h */,
+				2C5D601A1F456444008A9E65 /* ArticleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C5D600D1F454892008A9E65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D60131F4548EE008A9E65 /* HomePageCell.h */,
+				2C5D60141F4548EE008A9E65 /* HomePageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C5D600E1F454892008A9E65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D600F1F454892008A9E65 /* HomePageViewController.h */,
+				2C5D60101F454892008A9E65 /* HomePageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2C5D60111F454892008A9E65 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D601C1F4568CF008A9E65 /* HomePageViewModel.h */,
+				2C5D601D1F4568CF008A9E65 /* HomePageViewModel.m */,
+				2C5D60161F454940008A9E65 /* HomePageCellViewModel.h */,
+				2C5D60171F454940008A9E65 /* HomePageCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C6E8DB2A9DFAE9B6655DADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				522998469FB7A2232E066899 /* Pods-RAC-MVVM-AFN-FMDB.debug.xcconfig */,
+				CF48395B8EEF4EDF712ADB43 /* Pods-RAC-MVVM-AFN-FMDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5D5FDB1F453851008A9E65 /* Build configuration list for PBXNativeTarget "RAC-MVVM-AFN-FMDB" */;
 			buildPhases = (
+				252CB08702067ABA28AB61D4 /* [CP] Check Pods Manifest.lock */,
 				2C5D5FAA1F453851008A9E65 /* Sources */,
 				2C5D5FAB1F453851008A9E65 /* Frameworks */,
 				2C5D5FAC1F453851008A9E65 /* Resources */,
+				EF898B3D6E4692BBCD695BA8 /* [CP] Embed Pods Frameworks */,
+				673A7AA2A03178B5320C250C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +452,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		252CB08702067ABA28AB61D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		673A7AA2A03178B5320C250C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC-MVVM-AFN-FMDB/Pods-RAC-MVVM-AFN-FMDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF898B3D6E4692BBCD695BA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC-MVVM-AFN-FMDB/Pods-RAC-MVVM-AFN-FMDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C5D5FAA1F453851008A9E65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5D5FB91F453851008A9E65 /* ViewController.m in Sources */,
 				2C5D5FB61F453851008A9E65 /* AppDelegate.m in Sources */,
+				2C5D600B1F4545E6008A9E65 /* CFunctions.m in Sources */,
+				2C5D5FF71F453DFF008A9E65 /* BaseViewController.m in Sources */,
+				2C5D5FFD1F453E6D008A9E65 /* RequestViewModel.m in Sources */,
+				2C5D601B1F456444008A9E65 /* ArticleModel.m in Sources */,
+				2C5D60031F45433C008A9E65 /* FMDatabaseQueue+Extension.m in Sources */,
+				2C5D60121F454892008A9E65 /* HomePageViewController.m in Sources */,
+				2C5D60001F454104008A9E65 /* BaseModel.m in Sources */,
+				2C5D601E1F4568CF008A9E65 /* HomePageViewModel.m in Sources */,
 				2C5D5FB31F453851008A9E65 /* main.m in Sources */,
+				2C5D60181F454940008A9E65 /* HomePageCellViewModel.m in Sources */,
+				2C5D60081F454555008A9E65 /* NotificationNames.m in Sources */,
+				2C5D60151F4548EE008A9E65 /* HomePageCell.m in Sources */,
+				2C5D5FFA1F453E55008A9E65 /* BaseViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,23 +665,29 @@
 		};
 		2C5D5FDC1F453851008A9E65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522998469FB7A2232E066899 /* Pods-RAC-MVVM-AFN-FMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RAC-MVVM-AFN-FMDB/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JXW.RAC-MVVM-AFN-FMDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2C5D5FDD1F453851008A9E65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF48395B8EEF4EDF712ADB43 /* Pods-RAC-MVVM-AFN-FMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RAC-MVVM-AFN-FMDB/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JXW.RAC-MVVM-AFN-FMDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +756,7 @@
 				2C5D5FDD1F453851008A9E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C5D5FDE1F453851008A9E65 /* Build configuration list for PBXNativeTarget "RAC-MVVM-AFN-FMDBTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +765,7 @@
 				2C5D5FE01F453851008A9E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C5D5FE11F453851008A9E65 /* Build configuration list for PBXNativeTarget "RAC-MVVM-AFN-FMDBUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +774,7 @@
 				2C5D5FE31F453851008A9E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
